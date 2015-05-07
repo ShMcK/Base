@@ -10,9 +10,12 @@ export default angular.module('app', [
   //'pascalprecht.translate'
 
   /* services */
+
   /* components */
+  require('./core/layout/layout').name
+
   /* states */
 
 ])
-  .directive('app', require('./app'));
+  .directive('app', require('./components/app/app'));
 

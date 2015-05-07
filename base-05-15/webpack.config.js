@@ -2,8 +2,8 @@
 
 var webpack = require('webpack'),
   path = require('path'),
-  bourbon = require('node-bourbon').includePaths,
-  ExtractTextPlugin = require("extract-text-webpack-plugin");
+  bourbon = require('node-bourbon').includePaths;
+  //,ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 var paths = {
   app: __dirname + '/app',
@@ -36,8 +36,8 @@ module.exports = {
 
   resolve: {
     root: paths.app,
-    extensions: ['', '.js'], //, '.ts'
-    modulesDirectories: ['node_modules']
+    extensions: ['', '.js', '.json'], //, '.ts'
+    modulesDirectories: ['node_modules', 'libs']
   },
 
   module: {
@@ -55,8 +55,9 @@ module.exports = {
         loader: 'raw'
       }, {
         test: /\.scss$/,
-        //  loader: 'style!css!sass?includePaths[]=" + bourbon'
-        loader: ExtractTextPlugin.extract('style', 'css?sourceMap!autoprefixer!sass?sourceMap&' + paths.sassNeat)
+        //loader: 'style!css!sass'
+        loader: 'style!css!sass?includePaths[]=" + bourbon'
+        //loader: ExtractTextPlugin.extract('style', 'css?sourceMap!autoprefixer!sass?sourceMap&' + paths.sassNeat)
       }, {
         test: /\.css$/,
         loader: 'style!css!postcss'
@@ -80,7 +81,7 @@ module.exports = {
     require('csswring')
   ],
   plugins: [
-    new ExtractTextPlugin("[name].css"),
+    //new ExtractTextPlugin("[name].css"),
     new webpack.DefinePlugin({
       MODE: {
         test: process.env.NODE_ENV === 'test',

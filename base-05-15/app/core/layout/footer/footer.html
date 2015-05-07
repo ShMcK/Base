@@ -1,0 +1,28 @@
+<footer class="footer-2" role="contentinfo">
+  <div class="footer-logo">
+    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png"
+         alt="Logo image">
+  </div>
+  <ul>
+    <li ng-repeat="p in footer.data.primary">
+      <a ng-href="{{p.link}}">{{p.title}}</a>
+    </li>
+  </ul>
+
+  <div class="footer-secondary-links">
+    <ul>
+      <li ng-repeat="s in footer.data.secondary">
+        <a ng-href="{{s.link}}">{{s.title}}</a>
+      </li>
+    </ul>
+
+    <ul class="footer-social">
+      <li ng-repeat="social in footer.data.social">
+        <a ng-href="{{social.link}}">
+          <img ng-src="{{social.image}}"
+               alt="{{social.title}}">
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>

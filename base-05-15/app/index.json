@@ -1,9 +1,80 @@
 {
   "title": "Base",
+  "logo": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png",
+  "logoLink": "#",
   "version": "0.1.0",
   "nav": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      {
+        "title": "Products",
+        "link": "#"
+      },
+      {
+        "title": "About Us",
+        "link": "#"
+      },
+      {
+        "title": "Contact",
+        "link": "#"
+      }
+    ],
+    "secondary": [
+      {
+        "title": "More",
+        "link": "#"
+      },
+      {
+        "title": "Login",
+        "link": "#"
+      },
+      {
+        "title": "Sign Up",
+        "link": "#"
+      }
+    ]
+  },
+  "footer": {
+    "primary": [
+      {
+        "title": "Products",
+        "link": "#"
+      },
+      {
+        "title": "About Us",
+        "link": "#"
+      },
+      {
+        "title": "Contact",
+        "link": "#"
+      }
+    ],
+    "secondary": [
+      {
+        "title": "Terms & Conditions",
+        "link": "#"
+      },
+      {
+        "title": "Privacy Policy",
+        "link": "#"
+      }
+    ],
+    "social": [
+      {
+        "title": "Facebook",
+        "link": "#",
+        "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png"
+      },
+      {
+        "title": "Twitter",
+        "link": "#",
+        "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png"
+      },
+      {
+        "title": "YouTube",
+        "link": "#",
+        "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png"
+      }
+    ]
   }
 }
 

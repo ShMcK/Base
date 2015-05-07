@@ -1,5 +1,5 @@
-export default ngModule => {
-  ngModule.config((RestangularProvider) => {
+export default appModule => {
+  appModule.config((RestangularProvider) => {
     RestangularProvider.setBaseUrl(
       'http://...'
     );

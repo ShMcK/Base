@@ -1,17 +1,28 @@
-const name = 'navbar';
-
-function navbar() {
+export default () => {
   return {
     template: require('./nav.html'),
     controllerAs: 'nav',
     controller: function () {
-      var data = require('index.json');
-      this.title = data.title;
-      this.primaryNav = data.nav.primary;
-      this.secondaryNav = data.nav.secondary;
+      var vm = this;
+      vm.data = require('index.json');
+
+      // bourbon refill nav
+      // rewrite for angular
+      $(document).ready(function() {
+        var menuToggle = $('#js-centered-navigation-mobile-menu').unbind();
+        $('#js-centered-navigation-menu').removeClass('show');
+
+        menuToggle.on('click', function(e) {
+          e.preventDefault();
+          $('#js-centered-navigation-menu').slideToggle(function(){
+            if($('#js-centered-navigation-menu').is(':hidden')) {
+              $('#js-centered-navigation-menu').removeAttr('style');
+            }
+          });
+        });
+      });
+
+
     }
   };
-}
-
-export default angular.module(`app.${name}`, [])
-  .directive(name, navbar);
+};

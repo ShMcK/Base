@@ -1,12 +1,12 @@
 require('angular-mocks');
 
-export default (ngModule) => {
-	ngModule.config(($provide) => {
+export default (appModule) => {
+	appModule.config(($provide) => {
 		'ngInject';
 		$provide.decorator('$httpBackend', angular.mock.e2e.$httpBackendDecorator);
 	});
 
-	ngModule.run(($httpBackend) => {
+	appModule.run(($httpBackend) => {
 		'ngInject';
 		$httpBackend.whenGET(/^\w+.*/).passThrough();
 		$httpBackend.whenPOST(/^\w+.*/).passThrough();

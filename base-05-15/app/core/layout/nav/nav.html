@@ -1,22 +1,26 @@
-<nav class="navbar navbar-inverse" role="navigation">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <div class="navbar-brand">
-        <a href="/">{{nav.title}}</a>
-      </div>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="navbar-brand-centered">
-      <ul class="nav navbar-nav">
-        <li ng-repeat="p in nav.primaryNav"><a ng-link="primary:{{p.link}}">{{p.title}}</a></li>
+<header class="centered-navigation" role="banner">
+  <div class="centered-navigation-wrapper">
+    <a ng-href="{{nav.data.logoLink}}" class="mobile-logo">
+      <img ng-src="{{nav.data.logo}}"
+           alt="Logo image">
+    </a>
+    <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu"
+       class="centered-navigation-mobile-menu">MENU</a>
+    <nav role="navigation">
+      <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
+        <li ng-repeat="p in nav.data.nav.primary" class="nav-link">
+          <a ng-href="{{p.link}}">{{p.title}}</a>
+        </li>
+        <li class="nav-link logo">
+          <a ng-href="{{nav.data.logoLink}}" class="logo">
+            <img ng-src="{{nav.data.logo}}"
+                 alt="Logo image">
+          </a>
+        </li>
+        <li ng-repeat="s in nav.data.nav.secondary" class="nav-link">
+          <a ng-href="{{s.link}}">{{s.title}}</a>
+        </li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li ng-repeat="s in nav.secondaryNav"><a ng-link="secondary:{{s.link}}">{{s.title}}</a></li>
-      </ul>
-    </div>
-    <!-- /.navbar-collapse -->
+    </nav>
   </div>
-  <!-- /.container-fluid -->
-</nav>
+</header>
