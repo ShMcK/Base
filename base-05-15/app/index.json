@@ -38,6 +38,10 @@
     ]
   },
   "footer": {
+    "logo": {
+      "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png",
+      "link": "#"
+    },
     "primary": [
       {
         "title": "Products",

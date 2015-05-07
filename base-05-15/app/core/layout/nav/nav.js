@@ -4,9 +4,10 @@ export default () => {
     controllerAs: 'navbar',
     controller: function () {
       var data = require('index.json');
-      var vm = this;
-      vm.title = data.title;
-      vm.nav = data.nav;
+      angular.extend(this, {
+        title: data.title,
+        nav: data.nav
+      });
 
       // bourbon refill nav
       // rewrite for angular

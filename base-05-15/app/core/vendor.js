@@ -13,7 +13,8 @@ export default () => {
   require('angular-sanitize');
   require('angular-new-router');
 
+  require('angular-translate');
   //require('lodash');
   //require('restangular');
-  //require('angular-translate');
+
 };

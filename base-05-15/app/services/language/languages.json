@@ -1,0 +1,17 @@
+[
+  {
+    "code": "en",
+    "name": "English",
+    "icon": ""
+  },
+  {
+    "code": "ko",
+    "name": "한국어",
+    "icon": ""
+  },
+  {
+    "code": "ch",
+    "name": "中国",
+    "icon": ""
+  }
+]

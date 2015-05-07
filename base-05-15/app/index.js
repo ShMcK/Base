@@ -7,9 +7,11 @@ export default angular.module('app', [
   'ngSanitize',
   'ngTouch',
   //'restangular',
-  //'pascalprecht.translate'
+  'pascalprecht.translate',
 
   /* services */
+  require('./services/identity.service').name,
+  require('./services/language/language').name,
 
   /* components */
   require('./core/layout/layout').name
