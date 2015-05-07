@@ -1,0 +1,6 @@
+*/node_modules/
+*/app/lib/
+.idea/
+.npm-debug.log
+base-05-15/npm-debug.log
+
