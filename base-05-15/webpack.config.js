@@ -2,11 +2,15 @@
 
 var webpack = require('webpack'),
   path = require('path'),
-  bourbon = require('node-bourbon').includePaths;
+  bourbon = require('node-bourbon').includePaths,
+  ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 var paths = {
   app: __dirname + '/app',
-  bower: __dirname + '/app/bower_components'
+  bower: __dirname + '/libs',
+  sassNeat: require("node-neat").includePaths.map(function (sassPath) {
+    return "includePaths[]=" + sassPath;
+  }).join("&")
 };
 
 module.exports = {
@@ -44,14 +48,15 @@ module.exports = {
         exclude: /node_modules|dist|bower_components/
       }, {
         // waiting on 1.5 release
-      //  test: /\.ts$/,
-      //  loader: 'awesome-typescript'
-      //}, {
+        //  test: /\.ts$/,
+        //  loader: 'awesome-typescript'
+        //}, {
         test: /\.html$/,
         loader: 'raw'
       }, {
         test: /\.scss$/,
-        loader: 'style!css!sass?includePaths[]=" + bourbon'
+        //  loader: 'style!css!sass?includePaths[]=" + bourbon'
+        loader: ExtractTextPlugin.extract('style', 'css?sourceMap!autoprefixer!sass?sourceMap&' + paths.sassNeat)
       }, {
         test: /\.css$/,
         loader: 'style!css!postcss'
@@ -75,6 +80,7 @@ module.exports = {
     require('csswring')
   ],
   plugins: [
+    new ExtractTextPlugin("[name].css"),
     new webpack.DefinePlugin({
       MODE: {
         test: process.env.NODE_ENV === 'test',
