@@ -1,10 +1,12 @@
 export default () => {
   return {
     template: require('./nav.html'),
-    controllerAs: 'nav',
+    controllerAs: 'navbar',
     controller: function () {
+      var data = require('index.json');
       var vm = this;
-      vm.data = require('index.json');
+      vm.title = data.title;
+      vm.nav = data.nav;
 
       // bourbon refill nav
       // rewrite for angular

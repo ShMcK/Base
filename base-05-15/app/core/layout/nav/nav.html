@@ -1,23 +1,23 @@
 <header class="centered-navigation" role="banner">
   <div class="centered-navigation-wrapper">
-    <a ng-href="{{nav.data.logoLink}}" class="mobile-logo">
-      <img ng-src="{{nav.data.logo}}"
+    <a ng-href="{{navbar.title.logo__link}}" class="mobile-logo">
+      <img ng-src="{{navbar.title.logo}}"
            alt="Logo image">
     </a>
     <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu"
        class="centered-navigation-mobile-menu">MENU</a>
     <nav role="navigation">
       <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
-        <li ng-repeat="p in nav.data.nav.primary" class="nav-link">
+        <li ng-repeat="p in navbar.nav.primary" class="nav-link">
           <a ng-href="{{p.link}}">{{p.title}}</a>
         </li>
         <li class="nav-link logo">
-          <a ng-href="{{nav.data.logoLink}}" class="logo">
-            <img ng-src="{{nav.data.logo}}"
+          <a ng-href="{{navbar.title.logo__link}}" class="logo">
+            <img ng-src="{{navbar.title.logo}}"
                  alt="Logo image">
           </a>
         </li>
-        <li ng-repeat="s in nav.data.nav.secondary" class="nav-link">
+        <li ng-repeat="s in navbar.nav.secondary" class="nav-link">
           <a ng-href="{{s.link}}">{{s.title}}</a>
         </li>
       </ul>

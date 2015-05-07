@@ -1,8 +1,12 @@
 {
   "title": "Base",
-  "logo": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png",
-  "logoLink": "#",
   "version": "0.1.0",
+  "language": "en",
+  "title": {
+    "title": "Base",
+    "logo": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png",
+    "logo__link": "#"
+  },
   "nav": {
     "primary": [
       {
@@ -75,6 +79,17 @@
         "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png"
       }
     ]
+  },
+  "hero": {
+    "logo": {
+      "link": "",
+      "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png"
+    },
+    "text": {
+      "title": "Short description of Product",
+      "p": "A few reasons why this product is worth using, who it's for and why they need it.",
+      "button__label": "Learn more"
+    }
   }
 }
 
