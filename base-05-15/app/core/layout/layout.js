@@ -1,3 +1,8 @@
+/**
+ * Basic Re-Usable Layout Components
+ * - navbar, footer, hero, bullets
+ * @type {string}
+ */
 const prefix = 'bourbon';
 
 export default angular.module('app.layout', [])

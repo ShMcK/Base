@@ -1,3 +1,7 @@
+/**
+ * Hero Unit using Bourbon refills
+ * @returns {{template: (*|any), controllerAs: string, controller: Function}}
+ */
 export default () => {
   return {
     template: require('./hero.html'),

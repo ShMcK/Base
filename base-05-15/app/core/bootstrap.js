@@ -1,6 +1,13 @@
 /*jshint browser:true */
 'use strict';
+
+/**
+ * Bootstraps the app. (ng-app alternative)
+ */
+
+// Load vendor files
 require('./vendor')();
+// App
 var appModule = require('index');
 
 // refactor config to use component router
@@ -15,6 +22,7 @@ var appModule = require('index');
 //  require('./config/config.test')(appModule);
 //}
 
+// Bootstrap the app
 angular.element(document).ready(()=> {
   angular.bootstrap(document, [appModule.name], {
     //strictDi: true

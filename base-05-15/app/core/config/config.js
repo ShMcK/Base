@@ -1,3 +1,10 @@
+/**
+ * Configs router (based on ui-router)
+ *
+ * Must update for new router
+ *
+ * @param appModule
+ */
 export default appModule => {
   appModule.config(($locationProvider, $urlRouterProvider, $provide) => {
     // overwrite the default behaviour for $uiViewScroll service (scroll to top of the page)

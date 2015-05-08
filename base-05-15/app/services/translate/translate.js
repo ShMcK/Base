@@ -1,3 +1,13 @@
+/**
+ * i18n translations using Angular-Translate
+ */
+require('angular-translate');
+
+/**
+ * Translate Service
+ * - languages
+ * - current selected language
+ */
 class TranslateService {
   constructor($translate) {
     this.$translate = $translate;
