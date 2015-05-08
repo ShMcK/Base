@@ -6,17 +6,13 @@ export default angular.module('app', [
   'ngAnimate',
   'ngSanitize',
   'ngTouch',
-  //'restangular',
-  'pascalprecht.translate',
 
   /* services */
-  require('./services/identity.service').name,
-  require('./services/language/language').name,
+  require('./services/identity/identity').name,
+  require('./services/translate/translate').name,
 
   /* components */
   require('./core/layout/layout').name
-
-  /* states */
 
 ])
   .directive('app', require('./components/app/app'));

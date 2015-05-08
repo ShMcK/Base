@@ -3,7 +3,9 @@ export default () => {
     template: require('./bullets.html'),
     controllerAs: 'bullets',
     controller: function () {
-
+      angular.extend(this, {
+        bullets: require('index.json').bullets
+      });
     }
   };
 };

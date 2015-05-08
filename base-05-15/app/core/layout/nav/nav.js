@@ -3,7 +3,7 @@ export default () => {
     template: require('./nav.html'),
     controllerAs: 'navbar',
     controller: function () {
-      var data = require('index.json');
+      var data = require(`index.json`);
       angular.extend(this, {
         title: data.title,
         nav: data.nav

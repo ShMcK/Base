@@ -1,38 +1,37 @@
 {
-  "title": "Base",
+  "title": "TITLE",
   "version": "0.1.0",
-  "language": "en",
   "title": {
-    "title": "Base",
+    "title": "TITLE",
     "logo": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png",
     "logo__link": "#"
   },
   "nav": {
     "primary": [
       {
-        "title": "Products",
+        "title": "NAV.PRODUCTS",
         "link": "#"
       },
       {
-        "title": "About Us",
+        "title": "NAV.ABOUT_US",
         "link": "#"
       },
       {
-        "title": "Contact",
+        "title": "NAV.CONTACT",
         "link": "#"
       }
     ],
     "secondary": [
       {
-        "title": "More",
+        "title": "NAV.MORE",
         "link": "#"
       },
       {
-        "title": "Login",
+        "title": "NAV.LOGIN",
         "link": "#"
       },
       {
-        "title": "Sign Up",
+        "title": "NAV.SIGN_UP",
         "link": "#"
       }
     ]
@@ -42,43 +41,29 @@
       "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png",
       "link": "#"
     },
-    "primary": [
-      {
-        "title": "Products",
-        "link": "#"
-      },
-      {
-        "title": "About Us",
-        "link": "#"
-      },
-      {
-        "title": "Contact",
-        "link": "#"
-      }
-    ],
     "secondary": [
       {
-        "title": "Terms & Conditions",
+        "title": "FOOTER.TERMS_CONDITIONS",
         "link": "#"
       },
       {
-        "title": "Privacy Policy",
+        "title": "FOOTER.PRIVACY_POLICY",
         "link": "#"
       }
     ],
     "social": [
       {
-        "title": "Facebook",
+        "title": "SOCIAL.FACEBOOK",
         "link": "#",
         "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png"
       },
       {
-        "title": "Twitter",
+        "title": "SOCIAL.TWITTER",
         "link": "#",
         "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png"
       },
       {
-        "title": "YouTube",
+        "title": "SOCIAL.YOUTUBE",
         "link": "#",
         "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png"
       }
@@ -90,10 +75,25 @@
       "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png"
     },
     "text": {
-      "title": "Short description of Product",
-      "p": "A few reasons why this product is worth using, who it's for and why they need it.",
-      "button__label": "Learn more"
+      "title": "MAIN.HERO.TITLE",
+      "description": "MAIN.HERO.DESCRIPTION",
+      "button__label": "MAIN.HERO.BUTTON_LABEL"
     }
-  }
+  },
+  "bullets": [{
+    "title": "MAIN.BULLETS[0].TITLE",
+    "icon": "bullet-icon-1",
+    "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png",
+    "description": "MAIN.BULLETS[0].DESCRIPTION"
+  }, {
+    "title": "MAIN.BULLETS[1].TITLE",
+    "icon": "bullet-icon-2",
+    "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png",
+    "description": "MAIN.BULLETS[1].DESCRIPTION"
+  }, {
+    "title": "MAIN.BULLETS[2].TITLE",
+    "icon": "bullet-icon-3",
+    "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png",
+    "description": "MAIN.BULLETS[2].DESCRIPTION"
+  }]
 }
-

@@ -6,7 +6,7 @@ export default () => {
       var data = require('index.json').footer;
       angular.extend(this, {
         logo: data.logo,
-        primary: data.primary,
+        primary: require('index.json').nav,
         secondary: data.secondary,
         social: data.social
       });

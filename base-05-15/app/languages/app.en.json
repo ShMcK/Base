@@ -1,0 +1,41 @@
+{
+  "TITLE": "Base",
+  "NAV": {
+    "PRODUCTS": "Products",
+    "ABOUT_US": "About us",
+    "CONTACT": "Contact",
+    "MORE": "More",
+    "LOGIN": "Login",
+    "SIGN_UP": "Sign up"
+  },
+  "FOOTER": {
+    "TERMS_CONDITIONS": "Terms & Conditions",
+    "PRIVACY_POLICY": "Privacy Policy"
+  },
+  "SOCIAL": {
+    "FACEBOOK": "Facebook",
+    "TWITTER": "Twitter",
+    "YOUTUBE": "Youtube"
+  },
+  "MAIN": {
+    "HERO": {
+      "TITLE": "Short description of Product",
+      "DESCRIPTION": "A few reasons why this product is worth using, who it's for and why they need it.",
+      "BUTTON_LABEL": "Learn more"
+    },
+    "BULLETS": [
+      {
+        "TITLE": "This Bullet Title",
+        "DESCRIPTION": "Lorem dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem."
+      },
+      {
+        "TITLE": "Another Bullet",
+        "DESCRIPTION": "Lorem dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem."
+      },
+      {
+        "TITLE": "A Third Bullet",
+        "DESCRIPTION": "Lorem dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem."
+      }
+    ]
+  }
+}
