@@ -1,8 +1,9 @@
 export default ($translateProvider) => {
+  $translateProvider.preferredLanguage('en');
   // English
-  $translateProvider.translations('en', require('languages/app.en.json'));
+  $translateProvider.translations('en', require('languages/en.app.json'));
   // Korean
-  //$translateProvider.translations('ko', require('languages/app.ko.json'));
+  //$translateProvider.translations('ko', require('languages/ko.app.json'));
   // Chinese
-  //$translateProvider.translations('ch', require('languages/app.ch.json'));
+  //$translateProvider.translations('ch', require('languages/ch.app.json'));
 };

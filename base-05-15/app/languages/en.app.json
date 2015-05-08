@@ -23,19 +23,19 @@
       "DESCRIPTION": "A few reasons why this product is worth using, who it's for and why they need it.",
       "BUTTON_LABEL": "Learn more"
     },
-    "BULLETS": [
-      {
+    "BULLETS": {
+      "1": {
         "TITLE": "This Bullet Title",
         "DESCRIPTION": "Lorem dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem."
       },
-      {
+      "2": {
         "TITLE": "Another Bullet",
         "DESCRIPTION": "Lorem dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem."
       },
-      {
+      "3": {
         "TITLE": "A Third Bullet",
         "DESCRIPTION": "Lorem dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem."
       }
-    ]
+    }
   }
 }

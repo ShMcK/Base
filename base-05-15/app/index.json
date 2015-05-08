@@ -81,19 +81,19 @@
     }
   },
   "bullets": [{
-    "title": "MAIN.BULLETS[0].TITLE",
+    "title": "MAIN.BULLETS.1.TITLE",
     "icon": "bullet-icon-1",
     "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png",
-    "description": "MAIN.BULLETS[0].DESCRIPTION"
+    "description": "MAIN.BULLETS.1.DESCRIPTION"
   }, {
-    "title": "MAIN.BULLETS[1].TITLE",
+    "title": "MAIN.BULLETS.2.TITLE",
     "icon": "bullet-icon-2",
     "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png",
-    "description": "MAIN.BULLETS[1].DESCRIPTION"
+    "description": "MAIN.BULLETS.2.DESCRIPTION"
   }, {
-    "title": "MAIN.BULLETS[2].TITLE",
+    "title": "MAIN.BULLETS.3.TITLE",
     "icon": "bullet-icon-3",
     "image": "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png",
-    "description": "MAIN.BULLETS[2].DESCRIPTION"
+    "description": "MAIN.BULLETS.3.DESCRIPTION"
   }]
 }
