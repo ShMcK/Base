@@ -1,0 +1,41 @@
+{
+  "TITLE": "中文",
+  "NAV": {
+    "PRODUCTS": "产品",
+    "ABOUT_US": "介绍",
+    "CONTACT": "联系方式",
+    "MORE": "其它",
+    "LOGIN": "登陆",
+    "SIGN_UP": "注册"
+  },
+  "FOOTER": {
+    "TERMS_CONDITIONS": "条件",
+    "PRIVACY_POLICY": "个人情报保护政策 "
+  },
+  "SOCIAL": {
+    "FACEBOOK": "Facebook",
+    "TWITTER": "Twitter",
+    "YOUTUBE": "Youtube"
+  },
+  "MAIN": {
+    "HERO": {
+      "TITLE": "简单的介绍一下此产品
+      "DESCRIPTION": "推荐理由.",
+      "BUTTON_LABEL": "了解"
+    },
+    "BULLETS": {
+      "1": {
+        "TITLE": "好",
+        "DESCRIPTION": "奇怪的人."
+      },
+      "2": {
+        "TITLE": "笨蛋",
+        "DESCRIPTION": "哈咯"
+      },
+      "3": {
+        "TITLE": "猪",
+        "DESCRIPTION": "猪猪猪猪."
+      }
+    }
+  }
+}

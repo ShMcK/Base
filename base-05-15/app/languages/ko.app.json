@@ -1,0 +1,41 @@
+{
+  "TITLE": "한국어",
+  "NAV": {
+    "PRODUCTS": "제품",
+    "ABOUT_US": "소개",
+    "CONTACT": "연락처",
+    "MORE": "기타",
+    "LOGIN": "로그인",
+    "SIGN_UP": "등록"
+  },
+  "FOOTER": {
+    "TERMS_CONDITIONS": "조건",
+    "PRIVACY_POLICY": "개인정보 보호정책 "
+  },
+  "SOCIAL": {
+    "FACEBOOK": "Facebook",
+    "TWITTER": "Twitter",
+    "YOUTUBE": "Youtube"
+  },
+  "MAIN": {
+    "HERO": {
+      "TITLE": "제품의 대한 간단한 소개",
+      "DESCRIPTION": "추천할만한 이유.",
+      "BUTTON_LABEL": "더 알기"
+    },
+    "BULLETS": {
+      "1": {
+        "TITLE": "안녕",
+        "DESCRIPTION": "이상한 놈 ."
+      },
+      "2": {
+        "TITLE": "바보",
+        "DESCRIPTION": "유 사크"
+      },
+      "3": {
+        "TITLE": "라라라",
+        "DESCRIPTION": "모모 모모 모."
+      }
+    }
+  }
+}
