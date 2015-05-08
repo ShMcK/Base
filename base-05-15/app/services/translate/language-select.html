@@ -1,7 +1,7 @@
-<select name="select_language" ng-model="language.selected">
+<select name="select_language" ng-model="language.Translate.selected">
   <optgroup label="Language">
-    <option ng-repeat="l in language.languages track by $index"
-            ng-value="$index">
+    <option ng-repeat="l in language.Translate.languages"
+            ng-value="l.code">
       {{l.name}}
     </option>
   </optgroup>

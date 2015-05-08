@@ -2,6 +2,8 @@
  * i18n translations using Angular-Translate
  */
 require('angular-translate');
+require('angular-translate-storage-cookie');
+require('angular-translate-storage-local');
 
 /**
  * Translate Service
@@ -9,16 +11,11 @@ require('angular-translate');
  * - current selected language
  */
 class TranslateService {
-  constructor($translate) {
-    this.$translate = $translate;
+  constructor() {
     this.languages = require('./languages.json');
-    this.selected = this.languages[0];
-  }
-  changeLanguage(key) {
-    this.$translate.use(key);
+    this.selected = this.languages[0].code;
   }
 }
-TranslateService.$inject = ['$translate'];
 
 export default angular.module('app.translate', [
   'pascalprecht.translate'

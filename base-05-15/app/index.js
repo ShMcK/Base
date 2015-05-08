@@ -6,6 +6,7 @@ export default angular.module('app', [
   'ngAnimate',
   'ngSanitize',
   'ngTouch',
+  'ngCookies',
 
   /* services */
   require('./services/identity/identity').name,

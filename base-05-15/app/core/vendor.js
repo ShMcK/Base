@@ -11,6 +11,7 @@ export default () => {
   require('angular-animate');
   require('angular-touch');
   require('angular-sanitize');
+  require('angular-cookies');
   require('angular-new-router');
 
 };
