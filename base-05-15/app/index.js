@@ -13,7 +13,8 @@ export default angular.module('app', [
   require('./services/translate/translate').name,
 
   /* components */
-  require('./core/layout/layout').name
+  require('./core/layout/layout').name,
+  require('./components/product-list/productList')
 
 ])
   .directive('app', require('./components/app/app'));

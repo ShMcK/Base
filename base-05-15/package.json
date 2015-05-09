@@ -52,7 +52,7 @@
     "ng-annotate-loader": "~0.0.2",
     "node-bourbon": "^4.2.2",
     "node-neat": "^1.7.1-beta1",
-    "node-sass": "3.0.0",
+    "node-sass": "^3.0.0",
     "postcss": "~4.1.9",
     "postcss-loader": "~0.4.3",
     "postcss-nested": "~0.2.2",
